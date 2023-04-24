@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 61
+  controlID: 18
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: Window
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -68,14 +68,15 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 15}
-  - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  - {fileID: 16}
+  - {fileID: 14}
+  - {fileID: 12}
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,12 +95,12 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 363
-    height: 388
+    height: 586
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -112,24 +113,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimatorControllerTool
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 388
+    y: 586
     width: 1466
-    height: 559
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+    height: 361
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 14}
-  - {fileID: 19}
-  - {fileID: 12}
-  m_Selected: 2
-  m_LastSelected: 1
+  - {fileID: 15}
+  - {fileID: 20}
+  - {fileID: 13}
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 62
+  controlID: 19
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,11 +247,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1466
-    height: 388
+    height: 586
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 63
+  controlID: 20
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -269,16 +270,44 @@ MonoBehaviour:
     x: 363
     y: 0
     width: 1103
-    height: 388
+    height: 586
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
   - {fileID: 18}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12141, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 300, y: 360}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Navigation
+    m_Image: {fileID: 1087843850482249999, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1466
+    y: 73
+    width: 453
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -299,9 +328,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 461
+    y: 463
     width: 1465
-    height: 538
+    height: 536
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -335,14 +364,14 @@ MonoBehaviour:
   stateMachineGraphGUI: {fileID: 0}
   blendTreeGraph: {fileID: 0}
   blendTreeGraphGUI: {fileID: 0}
-  m_AutoLiveLink: 1
+  m_AutoLiveLink: 0
   m_MiniTool: 0
   m_LockTracker:
     m_IsLocked: 0
   m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -375,9 +404,9 @@ MonoBehaviour:
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 1
-  repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -526,10 +555,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2023-04-22T17:48:10.565-04:00
+      updatedTimeString: 2023-04-22T22:20:17.466-04:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2023-04-22T17:48:10.563-04:00
+      updatedTimeString: 2023-04-22T22:13:52.025-04:00
       cacheType: 1
     currentBranch:
       name: master
@@ -549,628 +578,20 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 1
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
     currentBranch: master
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - 38bd4a72e3060b0479bff3bea228815c
-        - 7693696efa1885c49b32bbdbdc855ccb
-        - 83107c796bf2ec348afb5e040bea51c8
-        - 741f73214c8e59045b42ebac4be91444
-        - 7f515c31c99b6a2489cd7ae821d22fb3
-        - c1d92bdd55f8c154c957dcd4f7cfe669
-        - 00a11f3eb5ba2aa4a9fe95591be93e28
-        - f8e5b2f39b57ccf45ae8321cac39d04e
-        - 73ad707fc1ae03741a0eb8c7d8d855f5
-        - eefc895c50b4bd34d90ba1c5c996c2ac
-        - bd38ff3c0d8ee4a43a058333dea73317
-        - 931deaa9eaf946441b3051b1667e43e4
-        - aa7b39a7b5bd0394b9588bd39905b5f7
-        - ba9ed8f46aa841c46a5cabb9f8df427f
-        - 40333ace0eb324a4b91b5cebbbd5cadc
-        - de8c62b12506dec41a423127280cecbc
-        - 4646d131f6c2dfc42aea9c13efe8f5c1
-        - 107e70a78028fcf4abe107cab565e94c
-        - b8a82c17682c1c747a8a22085d84962e
-        - 65ce8e404c7f72b48a2ced58e510f3bd
-        - 4a080c5ddde2b044bb072e626616ff10
-        - 14838969c17d1314da3edcca80c7b7ff
-        - 3697934ac1e012b4c9223c096a612576
-        - 8814c6591c8d54840bef57319960ba11
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\C&C_Pack
-          label: C&C_Pack
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\C&C_Pack\Goblin_rouge
-          label: Goblin_rouge
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller
-          label: Goblin_ro_amim.controller
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller
-            projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx
-          label: Goblin_rouge.fbx
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx
-            projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity
-          label: Goblin_rouge.unity
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity
-            projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab
-          label: Goblin_rouge_b.prefab
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab
-            projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab
-          label: Goblin_rouge_o.prefab
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab
-            projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab
-          label: Goblin_rouge_r.prefab
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab
-            projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting
-          label: Goblin_rougeSettings.lighting
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting
-            projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\Materials
-          label: Materials
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat
-          label: Goblin_ro_skin_b.mat
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat
-            projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat
-          label: Goblin_ro_skin_o.mat
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat
-            projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat
-          label: Goblin_ro_skin_r.mat
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat
-            projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat
-          label: Goblin_Rouge.mat
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat
-            projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat
-          label: Grid.mat
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat
-            projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\readme.txt
-          label: readme.txt
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\readme.txt
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\readme.txt
-            projectPath: Assets\C&C_Pack\Goblin_rouge\readme.txt
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\Script
-          label: Script
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs
-          label: Goblin_ro_ctrl.cs
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs
-            projectPath: Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\textures
-          label: textures
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png
-          label: Goblin_ro_blu.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png
-            projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png
-          label: Goblin_ro_orig.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png
-            projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png
-          label: Goblin_ro_red.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png
-            projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png
-          label: Goblin_Rouge512.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png
-            projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\C&C_Pack\Goblin_rouge\textures\Grig.png
-          label: Grig.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\C&C_Pack\Goblin_rouge\textures\Grig.png
-            fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Grig.png
-            projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Grig.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
+        keys: []
+        values: []
       folders:
-        keys:
-        - Assets
-        - Assets\C&C_Pack
-        - Assets\C&C_Pack\Goblin_rouge
-        - Assets\C&C_Pack\Goblin_rouge\Materials
-        - Assets\C&C_Pack\Goblin_rouge\Script
-        - Assets\C&C_Pack\Goblin_rouge\textures
-        - UserSettings
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\C&C_Pack
-          label: C&C_Pack
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\C&C_Pack\Goblin_rouge
-          label: Goblin_rouge
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\C&C_Pack\Goblin_rouge\Materials
-          label: Materials
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\C&C_Pack\Goblin_rouge\Script
-          label: Script
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\C&C_Pack\Goblin_rouge\textures
-          label: textures
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
@@ -1199,1217 +620,35 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\C&C_Pack.meta
-        label: C&C_Pack.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack.meta
-          projectPath: Assets\C&C_Pack.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack
-        label: C&C_Pack
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\C&C_Pack\Goblin_rouge.meta
-        label: Goblin_rouge.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge
-        label: Goblin_rouge
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller
-        label: Goblin_ro_amim.controller
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller.meta
-        label: Goblin_ro_amim.controller.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx
-        label: Goblin_rouge.fbx
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx.meta
-        label: Goblin_rouge.fbx.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity
-        label: Goblin_rouge.unity
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity.meta
-        label: Goblin_rouge.unity.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab
-        label: Goblin_rouge_b.prefab
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab.meta
-        label: Goblin_rouge_b.prefab.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab
-        label: Goblin_rouge_o.prefab
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab.meta
-        label: Goblin_rouge_o.prefab.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab
-        label: Goblin_rouge_r.prefab
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab.meta
-        label: Goblin_rouge_r.prefab.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting
-        label: Goblin_rougeSettings.lighting
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting.meta
-        label: Goblin_rougeSettings.lighting.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Materials.meta
-        label: Materials.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Materials.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Materials.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Materials
-        label: Materials
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat
-        label: Goblin_ro_skin_b.mat
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat.meta
-        label: Goblin_ro_skin_b.mat.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat
-        label: Goblin_ro_skin_o.mat
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat.meta
-        label: Goblin_ro_skin_o.mat.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat
-        label: Goblin_ro_skin_r.mat
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat.meta
-        label: Goblin_ro_skin_r.mat.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat
-        label: Goblin_Rouge.mat
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat.meta
-        label: Goblin_Rouge.mat.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat
-        label: Grid.mat
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat.meta
-        label: Grid.mat.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\readme.txt
-        label: readme.txt
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\readme.txt
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\readme.txt
-          projectPath: Assets\C&C_Pack\Goblin_rouge\readme.txt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\readme.txt.meta
-        label: readme.txt.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\readme.txt.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\readme.txt.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\readme.txt.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Script.meta
-        label: Script.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Script.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Script.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Script.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Script
-        label: Script
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs
-        label: Goblin_ro_ctrl.cs
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs.meta
-        label: Goblin_ro_ctrl.cs.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\textures.meta
-        label: textures.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\textures.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\textures.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\textures
-        label: textures
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png
-        label: Goblin_ro_blu.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png
-          projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png.meta
-        label: Goblin_ro_blu.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png
-        label: Goblin_ro_orig.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png
-          projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png.meta
-        label: Goblin_ro_orig.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png
-        label: Goblin_ro_red.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png
-          projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png.meta
-        label: Goblin_ro_red.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png
-        label: Goblin_Rouge512.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png
-          projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png.meta
-        label: Goblin_Rouge512.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\textures\Grig.png
-        label: Grig.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\textures\Grig.png
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Grig.png
-          projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Grig.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\C&C_Pack\Goblin_rouge\textures\Grig.png.meta
-        label: Grig.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\textures\Grig.png.meta
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Grig.png.meta
-          projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Grig.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        label: EditorUserSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\EditorUserSettings.asset
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\UserSettings\EditorUserSettings.asset
-          projectPath: UserSettings\EditorUserSettings.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       selectedNode:
-        path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab
-        label: Goblin_rouge_r.prefab
-        level: 3
+        path: 
+        label: 
+        level: 0
         isFolder: 0
-        isContainer: 1
+        isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
-        treeIsCheckable: 1
+        treeIsCheckable: 0
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab
-          fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab
-          projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab
+          path: 
+          fullPath: 
+          projectPath: 
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-    gitStatusEntries:
-    - path: Assets\C&C_Pack.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack.meta
-      projectPath: Assets\C&C_Pack.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_ro_amim.controller.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.fbx.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge.unity.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_b.prefab.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_o.prefab.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rouge_r.prefab.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Goblin_rougeSettings.lighting.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Materials.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Materials.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_b.mat.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_o.mat.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_ro_skin_r.mat.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Goblin_Rouge.mat.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Materials\Grid.mat.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\readme.txt
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\readme.txt
-      projectPath: Assets\C&C_Pack\Goblin_rouge\readme.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\readme.txt.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\readme.txt.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\readme.txt.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Script.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Script.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Script.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\Script\Goblin_ro_ctrl.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\textures.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\textures.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png
-      projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_blu.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png
-      projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_orig.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png
-      projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_ro_red.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png
-      projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Goblin_Rouge512.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\textures\Grig.png
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Grig.png
-      projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Grig.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\C&C_Pack\Goblin_rouge\textures\Grig.png.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\C&C_Pack\Goblin_rouge\textures\Grig.png.meta
-      projectPath: Assets\C&C_Pack\Goblin_rouge\textures\Grig.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\EditorUserSettings.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\UserSettings\EditorUserSettings.asset
-      projectPath: UserSettings\EditorUserSettings.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 44 changed files
+          indexStatus: 0
+          workTreeStatus: 0
+    gitStatusEntries: []
+    changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-04-22T20:13:15.102-04:00
+      updatedTimeString: 2023-04-22T22:23:30.179-04:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-04-22T20:39:13.448-04:00
+      updatedTimeString: 2023-04-22T22:23:30.137-04:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-04-22T20:35:57.642-04:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -2656,20 +895,20 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-04-22T17:52:43.275-04:00
+      updatedTimeString: 2023-04-22T22:13:52.025-04:00
       cacheType: 1
     newRepositoryRemoteUrl: https://github.com/BridgeWTMorel/399-Unity-Solo-Project.git
     repositoryRemoteName: origin
     repositoryRemoteUrl: https://github.com/BridgeWTMorel/399-Unity-Solo-Project.git
     scroll: {x: 0, y: 0}
     userSettingsView:
-      gitName: BridgeWTMorel
-      gitEmail: tmorel@student.bridgew.edu
-      newGitName: BridgeWTMorel
-      newGitEmail: tmorel@student.bridgew.edu
+      gitName: 
+      gitEmail: 
+      newGitName: 
+      newGitEmail: 
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2023-04-22T17:48:26.101-04:00
+        updatedTimeString: 0001-01-01T00:00:00.000+00:00
         cacheType: 8
     webTimeout: 100000
     gitTimeout: 5000
@@ -2698,208 +937,16 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 00:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-04-22T17:41:58.491-04:00
+      updatedTimeString: 2023-04-22T22:13:52.025-04:00
       cacheType: 1
     lastLocksChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-04-22T17:46:11.493-04:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
     lockedFiles: []
-    gitStatusEntries:
-    - path: .vscode\settings.json
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\.vscode\settings.json
-      projectPath: .vscode\settings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\Scenes.meta
-      projectPath: Assets\Scenes.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\SampleScene.unity
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\Scenes\SampleScene.unity
-      projectPath: Assets\Scenes\SampleScene.unity
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scenes\SampleScene.unity.meta
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Assets\Scenes\SampleScene.unity.meta
-      projectPath: Assets\Scenes\SampleScene.unity.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Packages\manifest.json
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Packages\manifest.json
-      projectPath: Packages\manifest.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Packages\packages-lock.json
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\Packages\packages-lock.json
-      projectPath: Packages\packages-lock.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\AudioManager.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\AudioManager.asset
-      projectPath: ProjectSettings\AudioManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\boot.config
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\boot.config
-      projectPath: ProjectSettings\boot.config
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ClusterInputManager.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\ClusterInputManager.asset
-      projectPath: ProjectSettings\ClusterInputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\DynamicsManager.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\DynamicsManager.asset
-      projectPath: ProjectSettings\DynamicsManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\EditorBuildSettings.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\EditorBuildSettings.asset
-      projectPath: ProjectSettings\EditorBuildSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\EditorSettings.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\EditorSettings.asset
-      projectPath: ProjectSettings\EditorSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\GraphicsSettings.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\GraphicsSettings.asset
-      projectPath: ProjectSettings\GraphicsSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\InputManager.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\InputManager.asset
-      projectPath: ProjectSettings\InputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\MemorySettings.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\MemorySettings.asset
-      projectPath: ProjectSettings\MemorySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\NavMeshAreas.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\NavMeshAreas.asset
-      projectPath: ProjectSettings\NavMeshAreas.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\PackageManagerSettings.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\PackageManagerSettings.asset
-      projectPath: ProjectSettings\PackageManagerSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-      projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\Physics2DSettings.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\Physics2DSettings.asset
-      projectPath: ProjectSettings\Physics2DSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\PresetManager.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\PresetManager.asset
-      projectPath: ProjectSettings\PresetManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ProjectSettings.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\ProjectSettings.asset
-      projectPath: ProjectSettings\ProjectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ProjectVersion.txt
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\ProjectVersion.txt
-      projectPath: ProjectSettings\ProjectVersion.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\QualitySettings.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\QualitySettings.asset
-      projectPath: ProjectSettings\QualitySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\TagManager.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\TagManager.asset
-      projectPath: ProjectSettings\TagManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\TimeManager.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\TimeManager.asset
-      projectPath: ProjectSettings\TimeManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\UnityConnectSettings.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\UnityConnectSettings.asset
-      projectPath: ProjectSettings\UnityConnectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\VersionControlSettings.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\VersionControlSettings.asset
-      projectPath: ProjectSettings\VersionControlSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\VFXManager.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\VFXManager.asset
-      projectPath: ProjectSettings\VFXManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\XRSettings.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\ProjectSettings\XRSettings.asset
-      projectPath: ProjectSettings\XRSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\EditorUserSettings.asset
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\UserSettings\EditorUserSettings.asset
-      projectPath: UserSettings\EditorUserSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Layouts\default-2021.dwlt
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\UserSettings\Layouts\default-2021.dwlt
-      projectPath: UserSettings\Layouts\default-2021.dwlt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Search.settings
-      fullPath: C:\Users\Subco\UnityProjects\Morel_399Project2\UserSettings\Search.settings
-      projectPath: UserSettings\Search.settings
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+    gitStatusEntries: []
     currentUsername: 
     unlockFileMenuContent:
       m_Text: Release Lock
@@ -2915,7 +962,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/BridgeWTMorel/399-Unity-Solo-Project.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
+  hasItemsToCommit: 0
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
@@ -2926,13 +973,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-04-22T17:53:04.692-04:00
+    updatedTimeString: 2023-04-22T22:23:30.179-04:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-04-22T17:53:05.193-04:00
+    updatedTimeString: 2023-04-22T22:23:30.960-04:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-04-22T18:01:51.203-04:00
+    updatedTimeString: 2023-04-22T22:23:30.137-04:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -2955,7 +1002,7 @@ MonoBehaviour:
   appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2976,9 +1023,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 461
+    y: 659
     width: 1465
-    height: 538
+    height: 340
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2996,22 +1043,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Cyber Monsters 2
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Cyber Monsters 2
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Subco\UnityProjects\Morel_399Project2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: cc940000
-    m_LastClickedID: 38092
-    m_ExpandedIDs: 00000000ea5f000008780000f28c0000cc940000
+    m_SelectedIDs: c85f0000
+    m_LastClickedID: 24520
+    m_ExpandedIDs: 00000000c85f0000fc5f0000fe5f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3039,7 +1086,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000c85f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3064,10 +1111,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 4eaafeff
-    m_LastClickedInstanceID: -87474
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000d6640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3095,7 +1142,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3136,7 +1183,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3159,7 +1206,7 @@ MonoBehaviour:
     x: 0
     y: 73
     width: 362
-    height: 367
+    height: 565
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3167,9 +1214,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 4eaafeff
-      m_LastClickedID: -87474
-      m_ExpandedIDs: 50aafeff68adfeff6cb1feffa0b4feff20b8feffc8f3feff1679ffff8cd4ffff90d4ffff94d4ffff98d4ffff9cd4ffffa0d4ffffa4d4ffffa8d4ffffacd4ffffb0d4ffff14d5ffffd2e3ffff34fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 9ef3ffff36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -3193,7 +1240,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3216,7 +1263,7 @@ MonoBehaviour:
     x: 363
     y: 73
     width: 1101
-    height: 367
+    height: 565
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3451,9 +1498,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.61823696, y: -3.3657932, z: 2.6504717}
+    m_Target: {x: 0.14074147, y: -0.62315416, z: -1.2696791}
     speed: 2
-    m_Value: {x: -0.61823696, y: -3.3657932, z: 2.6504717}
+    m_Value: {x: 0.14074147, y: -0.62315416, z: -1.2696791}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -3479,7 +1526,7 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     yGrid:
       m_Fade:
         m_Target: 1
@@ -3500,17 +1547,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0017854777, y: 0.91790664, z: -0.39677018, w: -0.0041306023}
+    m_Target: {x: 0.30067268, y: -0.0014305747, z: 0.00045101563, w: 0.9537243}
     speed: 2
-    m_Value: {x: -0.0017854783, y: 0.91790694, z: -0.3967703, w: -0.0041306037}
+    m_Value: {x: 0.30067325, y: -0.0014305774, z: 0.00045101647, w: 0.9537261}
   m_Size:
-    m_Target: 9.979222
+    m_Target: 6.085431
     speed: 2
-    m_Value: 9.979222
+    m_Value: 6.085431
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -3531,7 +1578,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3554,7 +1601,7 @@ MonoBehaviour:
     x: 363
     y: 73
     width: 1101
-    height: 367
+    height: 369
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3565,7 +1612,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1101, y: 346}
+  m_TargetSize: {x: 1101, y: 348}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -3582,8 +1629,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -550.5
     m_HBaseRangeMax: 550.5
-    m_VBaseRangeMin: -173
-    m_VBaseRangeMax: 173
+    m_VBaseRangeMin: -174
+    m_VBaseRangeMax: 174
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -3602,9 +1649,9 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 1101
-      height: 346
+      height: 348
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 550.5, y: 173}
+    m_Translation: {x: 550.5, y: 174}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -3612,18 +1659,18 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -550.5
-      y: -173
+      y: -174
       width: 1101
-      height: 346
+      height: 348
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1101, y: 367}
+  m_LastWindowPixelSize: {x: 1101, y: 369}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3644,9 +1691,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 461
+    y: 463
     width: 1465
-    height: 538
+    height: 536
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

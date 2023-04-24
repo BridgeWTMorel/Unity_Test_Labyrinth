@@ -28,11 +28,5 @@ public class CreatureMove : MonoBehaviour
             ++pointCount;
             Debug.Log("Arrived! Point Count = " + pointCount);
         }
-        
-        if(pointCount == 5 && !navAgent.isStopped)
-        {
-            navAgent.isStopped = true;
-            anim.SetTrigger("Idle");
-        }
     }
 }
