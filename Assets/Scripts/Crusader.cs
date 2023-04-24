@@ -13,6 +13,10 @@ public class Crusader : MonoBehaviour
     private float timer, attackTime = 1f, speed = 5f, camSensitivity = 100f;
     private Vector3 movement;
 
+    void Start()
+    {
+        weaponCollider.SetActive(false);
+    }
 
     // Update is called once per frame
     void Update()
