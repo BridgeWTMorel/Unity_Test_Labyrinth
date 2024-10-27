@@ -1,4 +1,4 @@
-# 399-Unity-Solo-Project
+# Unity_Test_Labryinth
 
 Current Mechanics:
   - Enemies move through the level using colliders and navmesh
